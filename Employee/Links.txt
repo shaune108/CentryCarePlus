@@ -1,0 +1,28 @@
+//Enter links here in this format
+//Link: "https://example.com"
+//Title: "See Example.com"
+//Description: "See examples of examples"
+
+Link: "https://login.secureemail.us"
+Title: "Company Webmail Login: SecureEmail.US"
+Description: "Login to your company email account at SecureEmail.US."
+
+Link: "https://brazzellmarketing.com/Home-Health-Websites/Help-Files/SecurePanel-Email.html#Roundcube"
+Title: "Company Webmail Help Files: RoundCube"
+Description: "Tips for getting the most out of the RoundCube webmail software in your company email."
+
+Link: "https://www.cms.gov/Outreach-and-Education/Medicare-Learning-Network-MLN/MLNProducts/Downloads/HIPAAPrivacyandSecurity.pdf"
+Title: "HIPAA Basics"
+Description: "Guidance from CMS regarding patient privacy regulations."
+
+Link: "https://www.cdc.gov/covid/index.html"
+Title: "CDC COVID Updates and Guidance"
+Description: "Learn more about COVID, protecting yourself, and protecting your clients."
+
+Link: "https://www.osha.com/blog/proper-lifting-techniques#:~:text=Safe%20lifting%20involves%3A%20Standing%20as%20close%20to%20the,your%20shoulders%20back%20to%20keep%20your%20back%20straight"
+Title: "OSHA Safe Lifting"
+Description: "OSHA guidance for safe lifting in the workplace."
+
+
+
+##End##

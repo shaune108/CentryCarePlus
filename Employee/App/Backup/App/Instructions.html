@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <title>Instructions - SecurePanel Employee Portal</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 20px;
+            scroll-behavior: smooth;
+        }
+        .container {
+            max-width: 850px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>SecurePanel Employee Portal - Manager Instructions</h1>
+        <p>
+            Log in to <a href="https://brazzellmarketing.com/Home-Health-Websites/Help-Files/" target="_blank">SecurePanel</a> and use File Manager to follow the instructions below. The files you want to manage are in <strong>public_html &gt;&gt; Employee</strong>.
+        </p>
+        <h2>Table of Contents</h2>
+        <ul>
+            <li><a href="#disable">How to disable the employee portal</a></li>
+            <li><a href="#password-protect">How to password protect the portal</a></li>
+            <li><a href="#top-message">How to customize the top message</a></li>
+            <li><a href="#downloads">How to manage downloads</a></li>
+            <li><a href="#links">How to manage links</a></li>
+            <li><a href="#bulletins">How to manage bulletins</a></li>
+            <li><a href="#code-editor">Code Editor vs. Rich Text Editor</a></li>
+            <li><a href="#restore">Restoring files after an error</a></li>
+        </ul>
+
+        <div class="section" id="disable">
+            <h2>How to Disable the Employee Portal</h2>
+            <p>To disable the employee portal, follow these steps:</p>
+            <ol>
+                <li>Navigate to <strong>SecurePanel &gt;&gt; File Manager &gt;&gt; public_html &gt;&gt; Employee</strong>.</li>
+                <li>Open the <strong>Settings.txt</strong> file using Code Editor.</li>
+                <li>Change the "No" value to "Yes" in the disable option you prefer (e.g., for redirect or message display).</li>
+                <li>Specify the message or redirect URL in the line below.</li>
+            </ol>
+        </div>
+
+        <div class="section" id="password-protect">
+            <h2>How to Password Protect the Portal</h2>
+            <p>Password protection is optional but adds privacy. Here's how to enable it:</p>
+            <ol>
+                <li>Open <strong>Settings.txt</strong> and add usernames and passwords as demonstrated.</li>
+                <li>To turn off protection, delete all user accounts except the example one.</li>
+                <li>For light security, use a shared username and password. For stronger security, create unique accounts.</li>
+            </ol>
+        </div>
+
+        <div class="section" id="top-message">
+            <h2>How to Customize the Top Message</h2>
+            <p>The top message is the first thing employees see. To customize it:</p>
+            <ol>
+                <li>Navigate to <strong>Top-Message.html</strong> in the Employee folder.</li>
+                <li>Open it in Rich Text Editor, make your changes, and save.</li>
+                <li>Images might appear broken in the editor, but they will work on the final page.</li>
+            </ol>
+        </div>
+
+        <div class="section" id="downloads">
+            <h2>How to Manage Downloads</h2>
+            <p>You can upload documents, videos, and other resources for employees to download:</p>
+            <ol>
+                <li>Navigate to <strong>public_html &gt;&gt; Employee &gt;&gt; Downloads</strong>.</li>
+                <li>Use the upload button to add new files, and right-click to rename or delete files.</li>
+                <li>In these file names, using underscores instead of spaces is recommended.</li>
+            </ol>
+        </div>
+
+        <div class="section" id="links">
+            <h2>How to Manage Links</h2>
+            <p>Share links to payroll systems, training portals, or other useful employee resources:</p>
+            <ol>
+                <li>Navigate to <strong>public_html &gt;&gt; Employee &gt;&gt; Links.txt</strong>.</li>
+                <li>Open it in Code Editor and follow the format to add new links, titles, and descriptions.</li>
+                <li>To delete a link, remove its three corresponding lines (Link, Title, Description).</li>
+            </ol>
+        </div>
+
+        <div class="section" id="bulletins">
+            <h2>How to Manage Bulletins</h2>
+            <p>Bulletins are online memos, policy updates, or announcements for employees:</p>
+            <ol>
+                <li>Navigate to <strong>public_html &gt;&gt; Employee &gt;&gt; Bulletins</strong>.</li>
+                <li>Create a new HTML file in the Bulletins folder and open it in Rich Text Editor.
+                    <ul>
+                        <li>End your file names with ".html".</li>
+                        <li>Ideally, use underscores instead of spaces in your file names.</li>
+                    </ul>
+                </li>
+                <li>Compose your bulletin, save the file, and it will appear on the employee portal.</li>
+            </ol>
+        </div>
+
+        <div class="section" id="code-editor">
+            <h2>Code Editor vs. Rich Text Editor</h2>
+            <p><a href="https://brazzellmarketing.com/Home-Health-Websites/Help-Files/" target="_blank">SecurePanel</a> gives you two editors you can use to control your files. What’s the difference?</p>
+            <p>Code Editor will open your file at its most elemental code level. Code Editor will only change the code in the exact way you type.</p>
+            <p>Rich Text Editor is more like a word processor. It hides elemental code from you, showing you the styled text instead. It has text formatting buttons that write code for you in the background. <strong>Only use Rich Text Editor as directed.</strong> Saving the wrong file with Rich Text Editor will render the file inoperable.</p>
+        </div>
+
+        <div class="section" id="restore">
+            <h2>Restoring Files After an Error</h2>
+            <p>If a core file gets damaged, you can easily restore it:</p>
+            <ol>
+                <li>Navigate to <strong>public_html &gt;&gt; Employee &gt;&gt; App &gt;&gt; Backup</strong>.</li>
+                <li>Copy the file from the backup folder and paste it into its working location.</li>
+                <li>If you have made significant edits, rename your file before pasting the backup to avoid losing work.</li>
+            </ol>
+        </div>
+    </div>
+</body>
+</html>

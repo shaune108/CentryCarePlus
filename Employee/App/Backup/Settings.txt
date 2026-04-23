@@ -1,0 +1,17 @@
+//Use either of the following settings to disable the employee portal.
+
+Disable_with_Redirect: "No"
+Redirect: "https://example.com"
+
+Disable_with_Message: "No"
+Message: "This employee portal is not activated."
+
+//Password Protection
+//Leave the example formatting below.
+//To password protect the employee portal, add one or more user accounts using the format demonstrated below. 
+
+User: "Example_Name_for_Your_Reference"
+Username: "Example_Login_Username"
+Password: "Example_Password"
+
+##End##

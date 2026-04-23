@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Document Outline with Dog-Eared Corner -->
+  <path d="M4 4h40l16 16v40H4z" fill="none" stroke="currentColor" stroke-width="2"/>
+  <path d="M44 4v16h16" fill="none" stroke="currentColor" stroke-width="2"/>
+
+  <!-- Excel Text -->
+  <text x="50%" y="32" font-family="Arial, sans-serif" font-size="14" fill="currentColor" text-anchor="middle" dy=".35em">XLS</text>
+
+  <!-- Text Lines -->
+  <line x1="16" y1="40" x2="48" y2="40" stroke="currentColor" stroke-width="2"/>
+  <line x1="16" y1="46" x2="48" y2="46" stroke="currentColor" stroke-width="2"/>
+  <line x1="16" y1="52" x2="48" y2="52" stroke="currentColor" stroke-width="2"/>
+</svg>
