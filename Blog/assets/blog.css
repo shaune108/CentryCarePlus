@@ -1,0 +1,270 @@
+* {
+
+    box-sizing: border-box;
+
+}
+
+
+
+html {
+
+    scroll-behavior: smooth;
+
+}
+
+
+
+html,
+
+body {
+
+    margin: 0;
+
+    padding: 0;
+
+}
+
+
+
+p {
+
+    margin: 0;
+
+    padding: 0;
+
+}
+
+
+
+img {
+
+    max-width: 100%;
+
+    border-style: none;
+
+}
+
+
+
+textarea {
+
+    resize: vertical;
+
+}
+
+
+
+a[href^='tel:'],
+
+a[href^='mailto:'] {
+
+    /* prevents word break, maintains display type */
+
+    white-space: nowrap;
+
+}
+
+
+.blog-home-page .blog-page-content {
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    gap: 1em;
+
+}
+
+
+
+.blog-post-page .blog-page-content {
+
+    display: flex;
+
+    flex-direction: row;
+
+    justify-content: center;
+
+    flex-wrap: wrap;
+
+    gap: 1em;
+
+    width: 100%;
+
+}
+
+
+
+.blog-embed-page {
+
+    background-color: transparent;
+
+}
+
+
+
+.post-list, .article {
+
+    flex: 1;
+
+}
+
+
+
+.post-list {
+
+    display: flex;
+
+    flex-direction: row;
+
+    justify-content: center;
+
+    align-items: flex-start;
+
+    flex-wrap: wrap;
+
+    gap: 2em;
+
+    padding: 1em;
+    
+    max-width: 1600px;
+    
+}
+
+
+
+.post-card {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 0.5em;
+
+    flex: 1;
+
+    min-width: 315px;
+
+    max-width: 500px;
+
+    padding: 1em;
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+    background-color: white;
+
+}
+
+
+
+.post-card-title {
+
+    margin: 0;
+
+}
+
+
+
+.post-card-description {
+
+    flex: 1;
+
+    max-height: 100px;
+
+    overflow: hidden;
+    
+    text-align: left;
+
+}
+
+
+
+.post-card-readmore {
+
+    align-self: flex-end;
+
+    padding: 0.25em;
+
+}
+
+
+
+.article {
+
+    width: 60%;
+
+    max-width: 800px;
+
+    padding: 1em;
+    
+    text-align: left;
+
+}
+
+.article h1 {
+    
+    font-size: 3em;
+    
+}
+
+
+
+.sidebar {
+
+    width: 40% !important;
+
+    max-width: 400px !important;
+
+    padding: 1em;
+
+}
+
+
+
+.pagination {
+
+    display: flex;
+
+    flex-direction: row;
+
+    justify-content: center;
+
+    gap: 1em;
+
+    margin-bottom: 1em;
+
+}
+
+
+
+@media (max-width: 850px) {
+
+    .blog-post-page .blog-page-content {
+
+        flex-direction: column;
+
+    }
+
+
+
+    .blog-page-content .article {
+
+        width: 100%;
+
+        max-width: none;
+
+    }
+
+
+
+    .blog-page-content .sidebar {
+
+        width: 100% !important;
+
+        max-width: none !important;
+
+    }
+
+}

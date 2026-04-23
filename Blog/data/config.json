@@ -1,0 +1,11 @@
+{
+    "installed": true,
+    "app_name": "Centry Care Plus LLC",
+    "app_email": "info@centrycareplusllc.com",
+    "timezone": "America\/New_York",
+    "admin": {
+        "username": "CentryCarePlus@gmail.com",
+        "email": "centrycareplus@gmail.com",
+        "password": "$2y$10$fQDGHH\/Z1WgZKh2uotG48eAcXXzbOvMaQd8ZzVGUgzNak2OmngJEi"
+    }
+}
